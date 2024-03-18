@@ -1,0 +1,37 @@
+.footer_outer_container {
+    display: flex; 
+    justify-content: center;
+    background-color: #111;
+}
+
+.footer_container {
+    width: 60%;
+}
+
+.footer_icons {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 10px;
+    width: 12%;
+}
+
+.footer_data {
+    display: flex;
+    color: #808080;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.footer_data ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 12vh;
+}
+
+.footer_data ul li {
+    cursor: pointer;
+}
+
